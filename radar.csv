@@ -1,0 +1,17 @@
+name,ring,quadrant,isNew,description,status
+Composer,adopt,tools,TRUE,"Dependency management tool for PHP projects",New
+Kubernetes,adopt,platforms,FALSE,"Container orchestration platform",No Change
+Microservices,adopt,techniques,FALSE,"Architectural style for building distributed systems",No Change
+React,adopt,languages & frameworks,FALSE,"Popular frontend library for building UIs",No Change
+Canary Releases,trial,techniques,TRUE,"Deploy changes to a small subset of users before full rollout",Moved In
+GraphQL,trial,languages & frameworks,FALSE,"Query language for APIs offering more flexibility",Moved In
+Redis,trial,tools,FALSE,"In memory data store used for caching and fast access",No Change
+Docker,trial,platforms,FALSE,"Container platform for packaging applications",No Change
+Feature Toggles,assess,techniques,FALSE,"Technique to enable or disable features dynamically",No Change
+Flutter,assess,languages & frameworks,TRUE,"UI toolkit for building natively compiled apps",New
+Apache Kafka,assess,platforms,FALSE,"Distributed event streaming platform",No Change
+Terraform,assess,tools,FALSE,"Infrastructure as code tool for provisioning cloud resources",No Change
+JSF,Caution,languages & frameworks,FALSE,"Legacy Java web framework with complexity issues",Moved Out
+Big Ball of Mud,Caution,techniques,FALSE,"Unstructured system architecture leading to maintenance issues",No Change
+Subversion,Caution,tools,FALSE,"Older version control system replaced by Git",Moved Out
+Traditional Monolith,Caution,platforms,FALSE,"Tightly coupled architecture that limits scalability",No Change
