@@ -3,14 +3,14 @@
     "name": "Composer",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "Dependency management tool for PHP projects"
   },
   {
     "name": "Kubernetes",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Container orchestration platform"
   }
 ]
