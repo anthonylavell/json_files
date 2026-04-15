@@ -4,34 +4,130 @@
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "Dependency management tool for PHP projects"
+    "description": "Dependency management tool for PHP projects",
+    "status": "New"
   },
   {
     "name": "Kubernetes",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Container orchestration platform"
+    "description": "Container orchestration platform widely adopted",
+    "status": "No Change"
   },
   {
-    "name": "Canary builds",
-    "ring": "trial",
+    "name": "Microservices",
+    "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "Many projects have external code dependencies and need safer rollout patterns."
+    "description": "Architectural style for building distributed systems",
+    "status": "No Change"
   },
   {
-    "name": "Apache Kylin",
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Popular frontend library for building UIs",
+    "status": "No Change"
+  },
+
+  {
+    "name": "Canary Releases",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Deploy changes to a small subset of users before full rollout",
+    "status": "Moved In"
+  },
+  {
+    "name": "GraphQL",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Query language for APIs offering more flexibility",
+    "status": "Moved In"
+  },
+  {
+    "name": "Redis",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "In-memory data store used for caching and fast access",
+    "status": "No Change"
+  },
+  {
+    "name": "Docker",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Container platform for packaging applications",
+    "status": "No Change"
+  },
+
+  {
+    "name": "Feature Toggles",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Technique to enable or disable features dynamically",
+    "status": "No Change"
+  },
+  {
+    "name": "Flutter",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "UI toolkit for building natively compiled apps",
+    "status": "New"
+  },
+  {
+    "name": "Apache Kafka",
     "ring": "assess",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Open source analytics solution for big data workloads."
+    "isNew": "FALSE",
+    "description": "Distributed event streaming platform",
+    "status": "No Change"
   },
+  {
+    "name": "Terraform",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Infrastructure as code tool for provisioning cloud resources",
+    "status": "No Change"
+  },
+
   {
     "name": "JSF",
     "ring": "Caution",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Teams continue to run into trouble with JSF in modern delivery environments."
+    "description": "Legacy Java web framework with complexity issues",
+    "status": "Moved Out"
+  },
+  {
+    "name": "Big Ball of Mud",
+    "ring": "Caution",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Unstructured system architecture leading to maintenance issues",
+    "status": "No Change"
+  },
+  {
+    "name": "Subversion",
+    "ring": "Caution",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Older version control system replaced by Git",
+    "status": "Moved Out"
+  },
+  {
+    "name": "Traditional Monolith",
+    "ring": "Caution",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Tightly coupled architecture that limits scalability",
+    "status": "No Change"
   }
 ]
