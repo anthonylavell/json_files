@@ -4,130 +4,111 @@
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "Dependency management tool for PHP projects",
-    "status": "New"
+    "description": "Dependency management tool for PHP projects"
   },
   {
     "name": "Kubernetes",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Container orchestration platform widely adopted",
-    "status": "No Change"
+    "description": "Container orchestration platform widely adopted"
   },
   {
     "name": "Microservices",
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "Architectural style for building distributed systems",
-    "status": "No Change"
+    "description": "Architectural style for building distributed systems"
   },
   {
     "name": "React",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Popular frontend library for building UIs",
-    "status": "No Change"
+    "description": "Popular frontend library for building UIs"
   },
-
   {
     "name": "Canary Releases",
     "ring": "trial",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": "Deploy changes to a small subset of users before full rollout",
-    "status": "Moved In"
+    "description": "Deploy changes to a small subset of users before full rollout"
   },
   {
     "name": "GraphQL",
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Query language for APIs offering more flexibility",
-    "status": "Moved In"
+    "description": "Query language for APIs offering more flexibility"
   },
   {
     "name": "Redis",
     "ring": "trial",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "In-memory data store used for caching and fast access",
-    "status": "No Change"
+    "description": "In-memory data store used for caching and fast access"
   },
   {
     "name": "Docker",
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Container platform for packaging applications",
-    "status": "No Change"
+    "description": "Container platform for packaging applications"
   },
-
   {
     "name": "Feature Toggles",
     "ring": "assess",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "Technique to enable or disable features dynamically",
-    "status": "No Change"
+    "description": "Technique to enable or disable features dynamically"
   },
   {
     "name": "Flutter",
     "ring": "assess",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "UI toolkit for building natively compiled apps",
-    "status": "New"
+    "description": "UI toolkit for building natively compiled apps"
   },
   {
     "name": "Apache Kafka",
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Distributed event streaming platform",
-    "status": "No Change"
+    "description": "Distributed event streaming platform"
   },
   {
     "name": "Terraform",
     "ring": "assess",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "Infrastructure as code tool for provisioning cloud resources",
-    "status": "No Change"
+    "description": "Infrastructure as code tool for provisioning cloud resources"
   },
-
   {
     "name": "JSF",
     "ring": "Caution",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Legacy Java web framework with complexity issues",
-    "status": "Moved Out"
+    "description": "Legacy Java web framework with complexity issues"
   },
   {
     "name": "Big Ball of Mud",
     "ring": "Caution",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "Unstructured system architecture leading to maintenance issues",
-    "status": "No Change"
+    "description": "Unstructured system architecture leading to maintenance issues"
   },
   {
     "name": "Subversion",
     "ring": "Caution",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "Older version control system replaced by Git",
-    "status": "Moved Out"
+    "description": "Older version control system replaced by Git"
   },
   {
     "name": "Traditional Monolith",
     "ring": "Caution",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Tightly coupled architecture that limits scalability",
-    "status": "No Change"
+    "description": "Tightly coupled architecture that limits scalability"
   }
 ]
