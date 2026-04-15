@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Composer",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": true,
+    "description": "Dependency management tool for PHP projects"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": false,
+    "description": "Container orchestration platform"
+  }
+]
