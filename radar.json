@@ -1,16 +1,18 @@
-[
-  {
-    "name": "Composer",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "Dependency management tool for PHP projects"
-  },
-  {
-    "name": "Kubernetes",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Container orchestration platform"
-  }
-]
+{
+  "entries": [
+    {
+      "name": "Composer",
+      "ring": "adopt",
+      "quadrant": "tools",
+      "isNew": "TRUE",
+      "description": "Dependency management tool for PHP projects"
+    },
+    {
+      "name": "Kubernetes",
+      "ring": "adopt",
+      "quadrant": "platforms",
+      "isNew": "FALSE",
+      "description": "Container orchestration platform"
+    }
+  ]
+}
