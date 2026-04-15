@@ -1,18 +1,37 @@
-{
-  "entries": [
-    {
-      "name": "Composer",
-      "ring": "adopt",
-      "quadrant": "tools",
-      "isNew": "TRUE",
-      "description": "Dependency management tool for PHP projects"
-    },
-    {
-      "name": "Kubernetes",
-      "ring": "adopt",
-      "quadrant": "platforms",
-      "isNew": "FALSE",
-      "description": "Container orchestration platform"
-    }
-  ]
-}
+[
+  {
+    "name": "Composer",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Dependency management tool for PHP projects"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Container orchestration platform"
+  },
+  {
+    "name": "Canary builds",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Many projects have external code dependencies and need safer rollout patterns."
+  },
+  {
+    "name": "Apache Kylin",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Open source analytics solution for big data workloads."
+  },
+  {
+    "name": "JSF",
+    "ring": "Caution",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Teams continue to run into trouble with JSF in modern delivery environments."
+  }
+]
