@@ -11,104 +11,174 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Container orchestration platform widely adopted"
+    "description": "Container orchestration platform"
   },
   {
-    "name": "Microservices",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": "Architectural style for building distributed systems"
-  },
-  {
-    "name": "React",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Popular frontend library for building UIs"
-  },
-  {
-    "name": "Canary Releases",
+    "name": "Canary builds",
     "ring": "trial",
     "quadrant": "techniques",
-    "isNew": "TRUE",
-    "description": "Deploy changes to a small subset of users before full rollout"
-  },
-  {
-    "name": "GraphQL",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Query language for APIs offering more flexibility"
+    "description": "Many projects have external code dependencies and need safer rollout patterns."
   },
   {
-    "name": "Redis",
-    "ring": "trial",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "In-memory data store used for caching and fast access"
-  },
-  {
-    "name": "Docker",
-    "ring": "trial",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Container platform for packaging applications"
-  },
-  {
-    "name": "Feature Toggles",
-    "ring": "assess",
-    "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": "Technique to enable or disable features dynamically"
-  },
-  {
-    "name": "Flutter",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "UI toolkit for building natively compiled apps"
-  },
-  {
-    "name": "Apache Kafka",
+    "name": "Apache Kylin",
     "ring": "assess",
     "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Distributed event streaming platform"
-  },
-  {
-    "name": "Terraform",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Infrastructure as code tool for provisioning cloud resources"
+    "isNew": "TRUE",
+    "description": "Open source analytics solution for big data workloads."
   },
   {
     "name": "JSF",
     "ring": "Caution",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Legacy Java web framework with complexity issues"
+    "description": "Teams continue to run into trouble with JSF in modern delivery environments."
   },
   {
-    "name": "Big Ball of Mud",
-    "ring": "Caution",
-    "quadrant": "techniques",
+    "name": "Path-to-production mapping",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Understand how software moves from idea to production."
+  },
+  {
+    "name": "Enabling teams",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
     "isNew": "FALSE",
-    "description": "Unstructured system architecture leading to maintenance issues"
+    "description": "Teams focused on enabling delivery instead of controlling it."
+  },
+  {
+    "name": "CUPID",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Principles guiding good design decisions."
+  },
+  {
+    "name": "Wardley mapping",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Strategy mapping technique."
+  },
+  {
+    "name": "Domain-driven design",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Model complex systems based on domain logic."
+  },
+  {
+    "name": "Event-driven architecture",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Architectural pattern using events for communication."
+  },
+  {
+    "name": "Feature toggles",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Enable or disable features dynamically."
+  },
+  {
+    "name": "Micro frontends",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Frontend decomposition approach."
+  },
+  {
+    "name": "Big ball of mud",
+    "ring": "Caution",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Unstructured system design causing maintenance issues."
+  },
+  {
+    "name": "WebAssembly",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Portable binary instruction format."
+  },
+  {
+    "name": "Serverless",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Cloud-native execution model."
+  },
+  {
+    "name": "Edge computing",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Processing data closer to users."
+  },
+  {
+    "name": "Traditional monolith",
+    "ring": "Caution",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Tightly coupled architecture."
+  },
+  {
+    "name": "Terraform",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Infrastructure as code tool."
+  },
+  {
+    "name": "GitHub Actions",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "CI/CD automation platform."
+  },
+  {
+    "name": "Docker",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Containerization platform."
+  },
+  {
+    "name": "Redis",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "In-memory data store."
   },
   {
     "name": "Subversion",
     "ring": "Caution",
-    "quadrant": "tools",
+    "quadrant": "Tools",
     "isNew": "FALSE",
-    "description": "Older version control system replaced by Git"
+    "description": "Legacy version control system."
   },
   {
-    "name": "Traditional Monolith",
-    "ring": "Caution",
-    "quadrant": "platforms",
+    "name": "React",
+    "ring": "Adopt",
+    "quadrant": "Languages & Frameworks",
     "isNew": "FALSE",
-    "description": "Tightly coupled architecture that limits scalability"
+    "description": "Frontend library."
+  },
+  {
+    "name": "GraphQL",
+    "ring": "Trial",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "FALSE",
+    "description": "Query language for APIs."
+  },
+  {
+    "name": "Flutter",
+    "ring": "Assess",
+    "quadrant": "Languages & Frameworks",
+    "isNew": "TRUE",
+    "description": "Cross-platform UI toolkit."
   }
 ]
